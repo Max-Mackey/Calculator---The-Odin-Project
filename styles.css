@@ -1,0 +1,82 @@
+body {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.calcShell {
+    height:400px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    border: 5px solid #FF9500;
+    margin: auto;
+    border-radius: 12px;
+    padding: 25px;
+    background-color: #1c1c1c;
+    align-items: center;
+    justify-content: center;
+}
+.calcScreen {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 70px;
+    min-width: 250px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+.calcTopContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    margin-top: 15px;
+    width: 300px;
+}
+.calcBottomContainer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    min-width: 250px;
+    min-height: 250px;
+  }
+.calcButtons {
+    margin: 3px;
+    background-color: #505050;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 3px;
+}
+.clear, .delete {
+    background-color:#D4D4D2 ;
+    height: 60px;
+    width: 110px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.clear {
+    margin-right: 25px;
+}
+.calcOperation {
+    
+    min-height: 18px;
+    font-size: 18px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+.calcEntry {
+    min-height: 36px;
+    font-size: 36px;
+    margin-right: 12px;
+}
+#divide, #multiply, #subtract, #add, #equals {
+    background-color: #FF9500;
+}
+
